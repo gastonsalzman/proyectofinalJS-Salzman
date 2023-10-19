@@ -1,0 +1,37 @@
+{
+    "nosotros": [
+    
+      {
+        "id": 1,
+        "nombre": "Federico Alvarez",
+        "edad": 38,
+        "ocupacion": "Encargado",
+        "imagen": "./images/equipo/Federico1.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Eugenia Baez",
+        "edad": 27,
+        "ocupacion": "Atención al Cliente y Ventas",
+        "imagen": "./images/equipo/Eugenia1.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Gustavo Gomez",
+        "edad": 34,
+        "ocupacion": "Marketing y Redes Sociales",
+        "imagen": "./images/equipo/Gustavo1.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Fernando Rios",
+        "edad": 32,
+        "ocupacion": "Logística y Gestión de Inventarios",
+        "imagen": "./images/equipo/Fernando1.jpg"
+      }
+
+      
+    ]
+
+  }
+  

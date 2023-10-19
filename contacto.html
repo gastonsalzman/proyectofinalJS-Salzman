@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./contacto.html" ><img class="logo" src="./images/logos/Logochico.png" alt="logochico"></a>
+            
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+               
+                <li>
+                    <a class="active" href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Sobre Nosotros</a>
+                </li>
+              
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo">Hacenos tu consulta:</h1>
+
+        <form action="" class="formulario" onsubmit="mostrarSweetAlert(event)">
+        <h1 class="formulario__titulo">Contactenos</h1>
+        <input type="text" class="formulario__input" id="nombre">
+        <label for="" class="formulario__label">Nombres</label>
+        <input type="text" class="formulario__input" id="correo">
+        <label for="" class="formulario__label">Correo</label>
+        <input type="text" class="formulario__input" id="telefono">
+        <label for="" class="formulario__label">Telefono</label>
+        <input type="text" class="formulario__input" id="mensaje">
+        <label for="" class="formulario__label">Mensaje</label>
+        <input type="submit" class="formulario__submit" value="Enviar">
+
+        </form>
+
+    </main>
+    <footer>
+        <div class="footerinfo">
+            <div class="info">
+                <p>Atencion al Cliente:</p>
+                <p>Lunes a Viernes: 9:00 a 20:00</p>
+                <p>Sabados: 9:00 a 18:30</p>
+                
+            </div>
+            <div class="metodos_pago">
+                <p>Metodos de pago:</p>
+               <img src="./images/logos/maestro.png" alt="maestro">
+               <img src="./images/logos/mastercard.png" alt="mastercard">
+               <img src="./images/logos/mercadopago.png" alt="mercadopago">
+               <img src="./images/logos/pagofacil.png" alt="pagofacil">
+               <img src="./images/logos/rapipago.png" alt="rapipago">
+               <img src="./images/logos/visa.png" alt="visa">
+            </div>
+
+
+        </div>
+
+   
+    </footer>
+    <script src="js/form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
